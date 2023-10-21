@@ -1,4 +1,4 @@
-from math_function import add
+from Math_function import add
 
 
 def main():
@@ -9,6 +9,7 @@ def main():
 
     if operator == "+":
         result = add(data_1, data_2)
+
 
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
